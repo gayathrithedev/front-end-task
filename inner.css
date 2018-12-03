@@ -1,0 +1,408 @@
+
+/* Style the tab */
+.tab {
+    float: left;
+    background-color: #1B1B1B;
+    width: 8%;
+    height: 100vh;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    height: 70px;
+    display: block;
+    background-color: inherit;
+    color: black;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #212121;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background-color: #212121;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    width: 17%;
+    height: 100vh;
+    background-color: #212121;
+    border: none;
+}
+/*tab icon*/
+i.fa.fa-plus-square {
+    font-size: 30px;
+}
+/* tab img */
+img{
+    height: 30px;
+    width: 30px;
+}
+.line1 {
+    font-weight: 900;
+    color: #545454;
+    line-height: 0.4;
+}
+.line2 {
+    color: #545454;
+    line-height: 0.4;
+}
+.line3 {
+    font-weight: 900;
+    color: #545454;
+    line-height: 0.4;
+    float: left;
+    padding-left: 33px;
+}
+button.tablinks.navbar {
+    border-bottom: 1px solid #9F9F9F;
+}
+.inbox-text {
+    color: #E9E9E9;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 5px;
+}
+.inbox {
+    height: 70px;
+    border-bottom: 1px solid #9F9F9F;
+    padding: 10px;
+}
+i.fa.fa-user-plus {
+    float: right;
+}
+/* 2nd tab */
+.tab2 {
+    padding: 20px;
+    float: left;
+    width: 100%;
+    /*background-color: #1B1B1B;
+    width: 8%;
+    height: 100vh;*/
+}
+
+/* Style the buttons inside the tab */
+.tab2 button {
+    display: block;
+    background-color: inherit;
+    color: #9F9F9F;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+/* Change background color of buttons on hover */
+.tab2 button:hover {
+    background-color: #303030;
+}
+
+/* Create an active/current "tab button" class */
+
+/* Style the tab content */
+.tabcontent2 {
+    color: white;
+    float: left;
+    width: 23%;
+    height: 100vh;
+    background-color: #252525;
+    border: none;
+}
+.all-messages {
+    padding: 5px;
+    font-size: 14px;
+}
+.all-messages span {
+    float: right;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+}
+.all-messages.unread {
+    color: white;
+    font-weight: 700;
+}
+.line{
+    color: #303030;
+}
+/* ids display*/
+#Whatsapp,#Skype,#Gmail,#Slack,#All,#Messages,#Unread,#Important,#Teams,#Groups,#Channels,#Locations,#Media,#Help,#Settings{
+    display: none;
+}
+/*search*/
+input[type="search"] {
+    background-color: #1D1D1D;
+    border: none;
+    padding: 3px 15px;
+    border-radius: 5px;
+    width: 80%;
+    margin: 20px;
+}
+.search {
+    height: 70px;
+    border-bottom: 1px solid #9F9F9F;
+}
+.row.friends {
+    width: 100%;
+    padding: 20px 10px;
+}
+.row.friends.active {
+    background: #303030;
+}
+img.profile {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.col-sm-6.col-md-6.col-lg-6 {
+    margin: 0px;
+    padding: 0px;
+}
+.username{
+    font-size: 13px;
+}
+.last-message{
+    font-size: 10px;
+    letter-spacing: 0.7px;
+}
+.lastseen {
+    font-size: 12px;
+    color: #9F9F9F;
+}
+.row{
+    margin:0px;
+}
+.row.typing {
+    width: 52%;
+    height: 100vh;
+}
+p.typername {
+    font-size: 12px;
+    height: 70px;
+    border-bottom: 1px solid #9F9F9F;
+    padding: 20px;
+}
+.col-sm-8.col-md-8.col-lg-8{
+    padding: 0px;
+    background: #F1F1F1;
+}
+p.typername span {
+    font-weight: 700;
+}
+.typername.fa{
+    float: right;
+}
+i.fa.fa-star-o,i.fa.fa-phone,i.fa.fa-video-camera {
+    float: right;
+    padding: 5px;
+    box-shadow: 1px 1px 1px 1px lightgrey;
+    color: #949494;
+    border-radius: 3px;
+    margin:0px 5px;
+}
+.senderprofile img {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+.time,.receivertime {
+    color: #727272;
+    font-size: 11px;
+    font-weight: 700;
+}
+.sendermsg {
+    font-size: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+.sendermsg p {
+    padding: 5px;
+}
+.sendermsg:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    z-index: 1;
+    border: solid 8px transparent;
+    border-right-color: #FFF;
+}
+.receiverprofile img {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+.receivermsg {
+    font-size: 10px;
+    background-color: #3BC249;
+    border-radius: 5px;
+    color: white
+}
+.receivermsg p {
+    padding: 5px;
+}
+.receivermsg:after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 93%;
+    z-index: 1;
+    border: solid 8px transparent;
+    border-left-color: #3BC249;
+}
+.receivermsg img{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    box-shadow: 3px 3px 3px 3px #217F29;
+}
+.title{
+    font-size: 10px;
+    padding: 0px 5px;
+}
+.title bold{
+    font-weight: 700;
+}
+.description{
+    font-size: 10px;
+    padding: 0px 5px;
+}
+.view center button{
+    background: #1C6122;
+    border: none;
+    border-radius: 5px;
+    width: 90%;
+    margin: 5px;
+    color: white;
+    padding: 5px;
+}
+.title i.fa.fa-star{
+    float: right;
+    background-color: transparent;
+    color: yellow;
+    font-size: 10px;
+    padding: 2px;
+    box-shadow: none;
+}
+.msgtype{
+    margin:10px 0px;
+    padding: 20px;
+    background-color: white;
+    width: 100%;
+}
+.msgtype center input[type="text"]{
+    width: 70%;
+    color: #8E8E8E;
+    border: none;
+    font-size: 12px;
+    padding: 5px;
+}
+i.fa.fa-paperclip,i.fa.fa-smile-o {
+    margin: 5px;
+    padding: 2px 5px;
+    border: 1px solid;
+    float: left;
+    color: #8E8E8E;
+}
+i.fa.fa-paperclip{
+    float: left;
+}
+i.fa.fa-smile-o{
+    float: right;
+}
+i.fa.fa-paper-plane-o{
+    padding: 10px;
+    background-color: #3DC348;
+    border-radius: 50%;
+    color: white;
+    float: right;
+}
+button.tablinks2.b {
+    background: #303030;
+}
+.col-sm-4.col-md-4.col-lg-4.c {
+    padding: 0px;
+}
+.myprofile {
+    width: 100%;
+    height: 70px;
+    color: #9F9F9F;
+    border-bottom: 1px solid #9F9F9F;
+    padding: 20px;
+}
+.container-fluid{
+    padding: 0px;
+}
+i.fa.fa-bell-o {
+    padding: 5px;
+    box-shadow: 1px 1px 1px 1px lightgrey;
+    border-radius: 3px;
+}
+.myname span {
+    float: right;
+    padding: 5px;
+    box-shadow: 1px 1px 1px 1px lightgrey;
+    border-radius: 3px;
+    font-size: 12px;
+    color: black;
+}
+i.fa.fa-angle-down {
+    padding: 0px 5px;
+}
+.settingsm {
+    padding: 20px;
+}
+.settingsm img{
+    width: 20px;
+    height: 20px;
+}
+.settingsm span{
+    float: right;
+}
+.profilephoto img{
+    width: 100px;
+    height: 100px;
+}
+.profileinfo {
+    padding: 5px;
+}
+.boldname {
+    font-size: 18px;
+}
+.citynames {
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+}
+.senderinfo {
+    padding: 10px;
+    font-size: 12px;
+    color: #727272;
+}
+.senderinfo span{
+    color: black;
+    float: right;
+}
+.lineinter {
+    padding: 10px;
+    color: #9F9F9F;
+    font-size: 15px;
+}
+#y{
+    display: none;
+}
